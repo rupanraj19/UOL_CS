@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIUUU - Hall of fame</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+  
+    <link href="../images/home/1.png" rel="icon">
+
+    <!-- bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <!-- css links -->
+    <link rel="stylesheet" href="../css/general.css">
+    <link rel="stylesheet" href="../css/halloffame.css">
+
+</head>
+<body >
+    
+    
+
+<!-- navbar -->
+<section class="sticky-top">
+<!-- TOP NAV -->
+<div class="top-nav" id="home">
+    <div class="container">
+     <div class="row justify-content-between">
+         <div class="col-5 text-start">
+       
+             <p> <i class="bi bi-envelope h5"></i> Siuu@example.com</p>
+             <p> <i class='bi bi-telephone h5'></i> (219) 555-0114</p>
+         </div>
+         <div class="col-5 text-end social-icons">
+             <a href="#"><i class='bi bi-facebook'></i></a>
+             <a href="#"><i class='bi bi-twitter'></i></a>
+             <a href="#"><i class='bi bi-instagram'></i></a>
+             <a href="#"><i class='bi bi-github'></i></a>
+         </div>
+         <div class="col-2 text-end">
+          <label class="switch">
+              <input type="checkbox">
+              <span onclick="myFunction()"  class="switchslider"></span>
+          </label>
+         </div>
+     </div>
+    </div>
+</div>
+  <!-- BOTTOM NAV -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white ">
+  <div class="container">
+   <a class="navbar-brand" href="index.html">SIUUU<span class="dot">.</span></a>
+   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+       aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon"></span>
+   </button>
+   <div class="collapse navbar-collapse" id="navbarNav">
+       <ul class="navbar-nav ms-auto">
+           <li class="nav-item">
+               <a class="nav-link" href="../index.html">Top Stories</a>
+           </li>
+           <li class="nav-item">
+               <a class="nav-link" href="./news.html" target="_blank">News</a>
+           </li>
+           <li class="nav-item">
+               <a class="nav-link" href="./leagues.html" target="_blank">Leagues</a>
+           </li>
+           <li class="nav-item">
+               <a class="nav-link" href="./fixture.html" target="_blank">Fixtures</a>
+           </li>
+           <li class="nav-item">
+               <a class="nav-link active" href="#">Hall Of Fame</a>
+           </li>
+           <li class="nav-item">
+               <a class="nav-link" href="./highlights.html" target="_blank">Highlights</a>
+           </li>
+           
+       </ul>
+       <!-- <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-brand ms-lg-3">login</a> -->
+       <a class="ms-auto login-btn" href="./signup.html" target="_blank">
+        <button> LOGIN
+        </button>
+       </a>
+     
+       </div>
+  </div>
+</nav>
+</section>
+<!-- navbar end -->
+
+ <!-- showcase -->
+<main class="main-section">
+ <!-- title -->
+<section class="p-5">
+    <div class="container">
+        <div class="row hof">
+            <h1 class="text-center text-white"> HALL OF FAME</h1>
+        </div>
+    </div>
+</section>
+
+<section  class=" p-5 mt-5">
+    <div class="container">
+        <div class="row align-items-center justify-content-between">
+            <div class="col-md">
+                <div class="hof-item image-zoom">
+                    <div class="image-zoom-wrapper">
+                        <img src="../images/halloffame/messi.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md p-5 text-light">
+                <h2 class="hof-title">LIONEL MESSI</h2>
+                <p class="lead">
+                    Lionel Messi is widely considered one of the greatest football players of all time, renowned for his unparalleled technical skills, creativity, and precision on the field. Born in Rosario, Argentina, in 1987, Messi joined FC Barcelona's youth academy at the age of 13 and quickly rose through the ranks to become a key player on the senior team.
+
+                   
+                </p>
+                <p id="moretxt1" style="display: none;">
+                    Throughout his career, Messi has amassed countless individual accolades, including seven Ballon d'Or awards, and helped lead Barcelona to numerous domestic and international titles, including ten La Liga championships and four UEFA Champions League trophies.
+                    
+                    With his electrifying performances and unmatched talent, Messi has captivated football fans worldwide and inspired a new generation of players. He will undoubtedly be remembered as one of the sport's all-time greats and a true icon of the game.
+                </p>
+                <a href="#" class="readmore">
+                    <button onclick="readMore('mybtn1', 'moretxt1');" id="mybtn1" class="rd-more-button">
+                        Read More 
+                    </button>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section  class="p-5 text-light">
+    <div class="container">
+        <div class="row align-items-center justify-content-between">
+            <div class="col-md p-5">
+                <h2 class="hof-title">CRISTIANO RONALDO</h2>
+                <p class="lead">
+                    Cristiano Ronaldo is widely regarded as one of the greatest football players in history, known for his remarkable physical attributes, clinical finishing, and fierce competitive spirit. Born in Madeira, Portugal in 1985, Ronaldo began his professional career with Sporting CP before moving on to play for some of the world's top clubs, including Manchester United, Real Madrid, and Juventus.
+
+
+                </p>
+                <p id="moretxt2" style="display: none;">
+                    Throughout his career, Ronaldo has amassed a staggering number of individual awards and achievements, including five Ballon d'Or awards, four European Golden Shoes, and numerous league titles and Champions League trophies. He is also the all-time leading scorer in the UEFA Champions League.
+                </p>
+                <a href="#" class="readmore">
+                    <button onclick="readMore('mybtn2', 'moretxt2');" id="mybtn2" class="rd-more-button">
+                        Read More 
+                    </button>
+                </a>
+            </div>
+            <div class="col-md">
+                <div class="hof-item image-zoom">
+                    <div class="image-zoom-wrapper">
+                        <img src="../images/halloffame/cr7.jpg  " alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- load more btn -->
+<div class="col-12">
+    <div class="container">
+        <div class="row ">
+            <a href="#" >
+                <button id="morebtn" onclick="addMore()" class="ld-btn">
+            <span>Load More</span>
+            <i class="bi bi-arrow-right-circle h2"></i>
+        </button>
+            </a>
+        </div>
+    </div>
+</div>
+
+<section id="more">
+    <section  class=" p-5 mt-5 text-light">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md">
+                    <div class="hof-item image-zoom">
+                        <div class="image-zoom-wrapper">
+                            <img src="../images/halloffame/pele.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md p-5">
+                    <h2 class="hof-title">PELE</h2>
+                    <p class="lead">
+                        Pele is widely considered one of the greatest football players in history, known for his exceptional skill, athleticism, and unparalleled success on the pitch. Born Edson Arantes do Nascimento in Brazil in 1940, Pele began playing football at a young age and quickly rose to prominence as a star player for Santos FC.
+                    </p>
+                    <p id="moretxt3" style="display: none;">
+                        Throughout his career, Pele amassed a staggering number of accolades, including three World Cup championships with Brazil, over 1,000 career goals, and numerous league titles and individual awards. He is also renowned for his sportsmanship, humility, and commitment to using his platform for good causes.
+                    </p>
+                    <a href="#" class="readmore">
+                        <button onclick="readMore('mybtn3', 'moretxt3');" id="mybtn3" class="rd-more-button">
+                            Read More 
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section  class="p-5 text-light">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md p-5">
+                    <h2 class="hof-title">DIEGO MARADONA</h2>
+                    <p class="lead">
+                        Diego Maradona was a legendary football player and cultural icon, widely regarded as one of the greatest players in the history of the sport. Born in Argentina in 1960, Maradona's rise to fame began in his early teens, as he quickly established himself as a precocious talent and earned a spot on the national team.
+                    </p>
+                    <p id="moretxt4" style="display: none;">
+                        Throughout his career, Maradona dazzled fans and opponents alike with his exceptional skill, agility, and creativity on the pitch. He famously led Argentina to victory in the 1986 World Cup, cementing his place in football history with his legendary "Hand of God" goal and his mesmerizing solo effort against England in the quarterfinals.
+                    </p>
+                    <a href="#" class="readmore">
+                        <button onclick="readMore('mybtn4', 'moretxt4');" id="mybtn4" class="rd-more-button">
+                            Read More 
+                        </button>
+                    </a>
+                </div>
+                <div class="col-md">
+                    <div class="hof-item image-zoom">
+                        <div class="image-zoom-wrapper">
+                            <img src="../images/halloffame/diego.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="col-12">
+        <div class="container">
+            <div class="row ">
+                <a href="#" >
+                    <button  onclick="addLess()" class="ld-btn">
+                <span>Load Less</span>
+                <i class="bi bi-arrow-right-circle h2"></i>
+            </button>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+</main>
+<!-- showcase end -->
+
+<!-- footer start -->
+<footer class="bg-dark mt-4">
+    <div class="footer-top">
+       <div class="container">
+           <div class="row gy-2">
+               <div class="col-lg-3 col-sm-6">
+                <a class="navbar-brand text-white" href="index.html">SIUUU<span class="dot">.</span></a>
+                   <div class="line"></div>
+                   <p class="click">Bringing you the latest goals, news, and Siuuu-perstar moments</p>
+                   <div class="social-card">
+                    <span>Social</span>
+                    <a class="social-link" href="#">
+                        <i class='bi bi-facebook h3'></i>
+                    </a>
+                    <a class="social-link" href="#">
+                        <i class='bi bi-twitter h3'></i>
+                    </a>
+                    <a class="social-link" href="#">
+                        <i class='bi bi-instagram h3'></i>
+                    </a>
+                    <a class="social-link" href="#">
+                        <i class='bi bi-github h3'></i>
+                    </a>
+                  </div>
+               </div>
+               <div class="col-lg-3 col-sm-6">
+                   <h5 class="mb-0 text-white">Topics</h5>
+                   <div class="line"></div>
+                   <ul>
+                    <ul>
+                        <li><a href="news.html"  target="_blank">News</a></li>
+                        <li><a href="./leagues.html" target="_blank">Leagues</a></li>
+                        <li><a href="./fixture.html" target="_blank">Fixtures</a></li>
+                        <li><a href="#">Hall of Fame</a></li>
+                        <li><a href="highlights.html" target="_blank" >Highlights</a></li>
+                    </ul>
+                </ul>
+               </div>
+               <div class="col-lg-3 col-sm-6">
+                <h5 class="mb-0 text-white">About SIUUU</h5>
+                <div class="line"></div>
+                <ul>
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="./signup.html">About us</a></li>
+                    <li><a href="./signup.html">Join us</a></li>
+                </ul>
+            </div>
+               <div class="col-lg-3 col-sm-6">
+                   <h5 class="mb-0 text-white">CONTACT</h5>
+                   <div class="line"></div>
+                   <ul>
+                       <li>Siu tower</li>
+                       <li>new york city</li>
+                       <li>+04454 448 89</li>
+                   </ul>
+               </div>
+           </div>
+       </div>
+     </div> 
+     <div class="footer-bottom">
+        <div class="container">
+            <div class="row justify-content-evenly align-items-center">
+                <div class="col-5">
+                    <p class="mb-0">&copy Copyright2023.All Rights Reserved</p>
+                </div>
+                <div class="col-5">
+                    <p class="mb-0">Designed by 
+                     <a href="#">SIUUU</a>
+                 </p>
+                </div>
+                <div class="col-2 text-end">
+                 <a href="#" class="arrow pb-2">
+                    <i class="bi bi-chevron-up h1 text-danger"></i>
+                 </a>
+              </div>
+            </div>
+        </div>
+      </div>
+</footer>
+<!-- footer end -->
+
+
+<!-- bootstrap link js -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+<!-- main js -->
+<script src="../js/general.js"></script>
+<script src="../js/hof.js"></script>
+   
+</body>
+</html>

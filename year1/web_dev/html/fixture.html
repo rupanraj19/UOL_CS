@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIUUU - Fixtures</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+  
+    <link href="../images/home/1.png" rel="icon">
+
+
+
+
+    <!-- bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <!-- css links -->
+    <link rel="stylesheet" href="../css/general.css">
+    <link rel="stylesheet" href="../css/fixture.css">
+
+</head>
+<body>
+    
+
+<!-- navbar -->
+<section class="sticky-top">
+    <!-- TOP NAV -->
+    <div class="top-nav" id="home">
+        <div class="container">
+         <div class="row justify-content-between">
+             <div class="col-5 text-start">
+                 <p> <i class="bi bi-envelope h5"></i> Siuu@example.com</p>
+                 <p> <i class='bi bi-telephone h5'></i> (219) 555-0114</p>
+             </div>
+             <div class="col-5 text-end social-icons">
+                 <a href="#"><i class='bi bi-facebook'></i></a>
+                 <a href="#"><i class='bi bi-twitter'></i></a>
+                 <a href="#"><i class='bi bi-instagram'></i></a>
+                 <a href="#"><i class='bi bi-github'></i></a>
+             </div>
+             <div class="col-2 text-end">
+              <label class="switch">
+                  <input type="checkbox">
+                  <span onclick="myFunction()"  class="switchslider"></span>
+              </label>
+             </div>
+         </div>
+        </div>
+        </div>
+  <!-- BOTTOM NAV -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white ">
+  <div class="container">
+   <a class="navbar-brand" href="index.html">SIUUU<span class="dot">.</span></a>
+   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+       aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon"></span>
+   </button>
+   <div class="collapse navbar-collapse" id="navbarNav">
+       <ul class="navbar-nav ms-auto">
+           <li class="nav-item">
+               <a class="nav-link" href="../index.html">Top Stories</a>
+           </li>
+           <li class="nav-item">
+               <a class="nav-link" href="./news.html" target="_blank">News</a>
+           </li>
+           <li class="nav-item">
+               <a class="nav-link" href="./leagues.html" target="_blank">Leagues</a>
+           </li>
+           <li class="nav-item">
+               <a class="nav-link active" href="#">Fixtures</a>
+           </li>
+           <li class="nav-item">
+               <a class="nav-link" href="./halloffame.html" target="_blank">Hall Of Fame</a>
+           </li>
+           <li class="nav-item">
+               <a class="nav-link" href="./highlights.html" target="_blank">Highlights</a>
+           </li>  
+       </ul>
+       <a class="ms-auto login-btn" href="./signup.html" target="_blank">
+        <button> LOGIN
+        </button>
+       </a>
+     
+       </div>
+  </div>
+  </nav>
+</section>
+<!-- navbar end -->
+
+
+
+<!-- showcase start -->
+<section id="main-display">
+    <div class="container-fluid">
+        <div class="row fixture mt-0">
+            <div class="col-lg-12 col-sm-12 col-xs-12">
+                <div class="context">
+                    <h1>Fixtures</h1>
+                </div>
+            <div class="area" >
+                        <ul class="circles">
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                        </ul>
+                </div >
+            </div>
+        </div>
+    </div>
+</section>
+<!-- showcase end -->
+
+<!-- mini dropdown navbar  -->
+<section class="pb-5">
+    <div class="filter-bar container">
+ 
+        <div class="d-flex flex-wrap"> 
+            <div class="dropdown ms-1 ">
+                <button class="dropbtn  btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <span class="box">
+                           leagues <i class="bi bi-arrow-down-short"></i>
+                    </span>
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">EPL</a></li>
+                  <li><a class="dropdown-item" href="#">UCL</a></li>
+                  <li><a class="dropdown-item" href="#">La Liga</a></li>
+                </ul>
+              </div>
+
+              <div class="dropdown ms-2">
+                <button class="dropbtn  btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <span class="box">
+                           clubs <i class="bi bi-arrow-down-short"></i>
+                    </span>
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Aresnal</a></li>
+                  <li><a class="dropdown-item" href="#">Man Utd</a></li>
+                  <li><a class="dropdown-item" href="#">Man city</a></li>
+                </ul>
+              </div>
+
+              <div class="reset-filter ms-auto ">
+                <a href="fixture.html" >
+                    <button class="dropbtn btn" >
+                        <span class="box">
+                            <i class="bi bi-arrow-repeat"></i> reset
+                        </span>
+                    </button>
+                </a>
+              </div>
+        </div>
+    </div>
+</section>
+<!-- mini dropdown navbar end -->
+
+
+<!-- fixtures  -->
+<section class="fixture">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 d-inline-flex">
+                <h2>Sunday 26 February 2023</h2>
+                <img class="img-fluid logo-head ms-auto" src="../images/fixture/Premier_league_logo.png" alt="premier league logo">
+               
+            </div>
+            <div class="d-flex flex-column mb-3 text-center border-top border-2">
+                <div class="p-2 match col-15 d-inline-flex">
+                    <div class="col-4 text-end">
+                        <p class="d-inline">Manchester United  <img class="logos img-fluid" src="../images/clubs/manutd logo.png" alt="man utd logo"></p>
+                    </div>
+                    <div class="col-2">
+                        <button>10:00</button>
+                    </div>
+                    <div class="col-4 text-start">
+                        <p class="d-inline"> <img class="logos img-fluid" src="../images/clubs/liverpol.png" alt="liverpool logo"> Liverpool</p>
+                    </div>
+                    <div class="col-2 text-start">
+                        <p> <i class="bi bi-geo-alt"></i> Old Trafford</p>
+                    </div>
+                </div>
+                <div class="p-2 match col-15 d-inline-flex border-2 border-top">
+                    <div class="col-4 text-end">
+                        <p class="d-inline">  Chelsea <img class="logos img-fluid" src="../images/clubs/chelsea.png" alt="chelsea logo"></p>
+                    </div>
+                    <div class="col-2">
+                      <button>12:00</button>
+                    </div>
+                    <div class="col-4 text-start">
+                        <p class="d-inline"> <img class="logos img-fluid" src="../images/clubs/spurs.png" alt="spurs logo"> Spurs</p>
+                    </div>
+                    <div class="col-2 text-start">
+                        <p> <i class="bi bi-geo-alt"></i> Stamford Bridge</p>
+                    </div>
+                </div>    
+                <div class="p-2 match col-15 d-inline-flex border-2 border-top">
+                    <div class="col-4 text-end">
+                        <p class="d-inline">  Aresnal <img class="logos img-fluid" src="../images/clubs/aresnal.png" alt="aresnal logo"></p>
+                    </div>
+                    <div class="col-2">
+                        <button>13:00</button>
+                    </div>
+                    <div class="col-4 text-start">
+                        <p class="d-inline"> <img class="logos img-fluid" src="../images/clubs/mci.png" alt="man city logo"> Manchester City</p>
+                    </div>
+                    <div class="col-2 text-start">
+                        <p> <i class="bi bi-geo-alt"></i> Emirates stadium</p>
+                    </div>
+                </div> 
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 d-inline-flex">
+                <h2>Sunday 26 February 2023</h2>
+                <img class="img-fluid logo-head2 ms-auto" src="../images/fixture/Spanish_La_Liga_logo.png" alt="la-liga logo">
+               
+            </div>
+            <div class="d-flex flex-column mb-3 text-center ">
+                <div class="p-2 match col-15 d-inline-flex">
+                    <div class="col-4 text-end">
+                        <p class="d-inline">Barcelona  <img class="logos img-fluid" src="../images/clubs/fcb.png" alt="fcb logo"></p>
+                    </div>
+                    <div class="col-2">
+                        <button>02:00</button>
+                    </div>
+                    <div class="col-4 text-start">
+                        <p class="d-inline"> <img class="logos img-fluid" src="../images/clubs/rm.png" alt="real madrid logo">Real Madrid</p>
+                    </div>
+                    <div class="col-2 text-start">
+                        <p> <i class="bi bi-geo-alt"></i> Camp Nou</p>
+                    </div>
+                </div>
+                <div class="p-2 match col-15 d-inline-flex border-2 border-top">
+                    <div class="col-4 text-end">
+                        <p class="d-inline">Atletico Madrid <img class="logos img-fluid" src="../images/clubs/atm.png" alt="atm logo"></p>
+                    </div>
+                    <div class="col-2">
+                        <button>03:00</button>
+                    </div>
+                    <div class="col-4 text-start">
+                        <p class="d-inline"> <img class="logos img-fluid" src="../images/clubs/cf-sevilla.png" alt="Sevilla logo">Sevilla</p>
+                    </div>
+                    <div class="col-2 text-start">
+                        <p> <i class="bi bi-geo-alt"></i> Metropolitano Stadium</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 d-inline-flex">
+                <h2>Saturday 4 March 2023</h2>
+                <img class="img-fluid logo-head ms-auto" src="../images/fixture/UEFA_Champions_League_logo.png" alt="uefa logo">
+               
+            </div>
+            <div class="d-flex flex-column mb-3 text-center ">
+                <div class="p-2 match col-15 d-inline-flex">
+                    <div class="col-4 text-end">
+                        <p class="d-inline">Dortmund  <img class="logos img-fluid" src="../images/clubs/dortmund.png" alt="dortmund logo"></p>
+                    </div>
+                    <div class="col-2">
+                        <button>02:00</button>
+                    </div>
+                    <div class="col-4 text-start">
+                        <p class="d-inline"> <img class="logos img-fluid" src="../images/clubs/chelsea.png" alt="chelsea logo">Chelsea</p>
+                    </div>
+                    <div class="col-2 text-start">
+                        <p> <i class="bi bi-geo-alt"></i>  Signal Iduna Park</p>
+                    </div>
+                </div>
+                <div class="p-2 match col-15 d-inline-flex border-2 border-top">
+                    <div class="col-4 text-end">
+                        <p class="d-inline">Atletico Madrid <img class="logos img-fluid" src="../images/clubs/atm.png" alt="atm logo"></p>
+                    </div>
+                    <div class="col-2">
+                        <button>03:00</button>
+                    </div>
+                    <div class="col-4 text-start">
+                        <p class="d-inline"> <img class="logos img-fluid" src="../images/clubs/porto.png" alt="porto logo">Porto</p>
+                    </div>
+                    <div class="col-2 text-start">
+                        <p> <i class="bi bi-geo-alt"></i> Metropolitano Stadium</p>
+                    </div>
+                </div>
+                  <div class="p-2 match col-15 d-inline-flex border-2 border-top">
+                    <div class="col-4 text-end">
+                        <p class="d-inline">Paris Saint-Germain <img class="logos img-fluid" src="../images/clubs/psg logo.png" alt="psg logo"></p>
+                    </div>
+                    <div class="col-2">
+                        <button>03:00</button>
+                    </div>
+                    <div class="col-4 text-start">
+                        <p class="d-inline"> <img class="logos img-fluid" src="../images/clubs/bayern logo.png" alt="bayern logo">Bayern munich</p>
+                    </div>
+                    <div class="col-2 text-start">
+                        <p> <i class="bi bi-geo-alt"></i> Le parc des princes Stadium</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="more">
+            <div class="row">
+                <div class="col-12 d-inline-flex">
+                    <h2>Sunday 5 March 2023</h2>
+                    <img class="img-fluid logo-head ms-auto" src="../images/fixture/uel-logo.png" alt="europa league">
+                   
+                </div>
+                <div class="d-flex flex-column mb-3 text-center ">
+                    <div class="p-2 match col-15 d-inline-flex">
+                        <div class="col-4 text-end">
+                            <p class="d-inline">Manchester United  <img class="logos img-fluid" src="../images/clubs/manutd logo.png" alt="man utd logo"></p>
+                        </div>
+                        <div class="col-2">
+                            <button>01:45</button>
+                        </div>
+                        <div class="col-4 text-start">
+                            <p class="d-inline"> <img class="logos img-fluid" src="../images/clubs/fcb.png" alt="fcb logo"> Barcelona</p>
+                        </div>
+                        <div class="col-2 text-start">
+                            <p> <i class="bi bi-geo-alt"></i> Old Trafford</p>
+                        </div>
+                    </div>
+                    <div class="p-2 match col-15 d-inline-flex border-2 border-top">
+                        <div class="col-4 text-end">
+                            <p class="d-inline">Aresnal <img class="logos img-fluid" src="../images/clubs/aresnal.png" alt="Aresnal logo"></p>
+                        </div>
+                        <div class="col-2">
+                            <button>03:45</button>
+                        </div>
+                        <div class="col-4 text-start">
+                            <p class="d-inline"> <img class="logos img-fluid" src="../images/clubs/psv.png" alt="psv logo"> PSV</p>
+                        </div>
+                        <div class="col-2 text-start">
+                            <p> <i class="bi bi-geo-alt"></i> Emirates Stadium</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 d-inline-flex">
+                    <h2>Sunday 12 March 2023</h2>
+                    <img class="img-fluid logo-head ms-auto" src="../images/fixture/Premier_league_logo.png" alt=" Premier_league_logo">
+                </div>
+                <div class="d-flex flex-column mb-3 text-center ">
+                    <div class="p-2 match col-15 d-inline-flex">
+                        <div class="col-4 text-end">
+                            <p class="d-inline">Newcastle United <img class="logos img-fluid" src="../images/clubs/newcastle.png" alt="newcastle logo"></p>
+                        </div>
+                        <div class="col-2">
+                            <button>06:45</button>
+                        </div>
+                        <div class="col-4 text-start">
+                            <p class="d-inline"> <img class="logos img-fluid" src="../images/clubs/wolves.png" alt="wolves logo"> Wolves</p>
+                        </div>
+                        <div class="col-2 text-start">
+                            <p> <i class="bi bi-geo-alt"></i> st james park</p>
+                        </div>
+                    </div>
+                    <div class="p-2 match col-15 d-inline-flex border-2 border-top">
+                        <div class="col-4 text-end">
+                            <p class="d-inline">Leicester City <img class="logos img-fluid" src="../images/clubs/leicester.png" alt="Aresnal logo"></p>
+                        </div>
+                        <div class="col-2">
+                            <button>03:45</button>
+                        </div>
+                        <div class="col-4 text-start">
+                            <p class="d-inline"> <img class="logos img-fluid" src="../images/clubs/west-ham-united.png" alt="westham logo"> West Ham United</p>
+                        </div>
+                        <div class="col-2 text-start">
+                            <p> <i class="bi bi-geo-alt"></i>King Power Stadium</p>
+                        </div>
+                    </div>
+                    <div class="p-2 match col-15 d-inline-flex border-2 border-top">
+                        <div class="col-4 text-end">
+                            <p class="d-inline">Manchester City <img class="logos img-fluid" src="../images/clubs/mci.png" alt="mancity logo"></p>
+                        </div>
+                        <div class="col-2">
+                            <button>08:00</button>
+                        </div>
+                        <div class="col-4 text-start">
+                            <p class="d-inline"> <img class="logos img-fluid" src="../images/clubs/manutd logo.png" alt="manutd logo">Manchester United</p>
+                        </div>
+                        <div class="col-2 text-start">
+                            <p> <i class="bi bi-geo-alt"></i>Etihad Stadium</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+             <div class="col-12 p-5">
+            <a class="" href="#">
+                <button onclick="addLess()" class="loadmore-btn">
+                    <div class="icon-wrapper-1">
+                      <div class="icon-wrapper">
+                        <i class="bi bi-minecart-loaded"></i>
+                      </div>
+                    </div>
+                    <span >Load Less</span>
+                  </button>
+               </a>
+        </div>
+        </div>
+      
+        <!-- load more -->
+        <div class="col-12 p-5">
+            <a class="" href="#">
+                <button id="morebtn" onclick="addMore()" class="loadmore-btn">
+                    <div class="icon-wrapper-1">
+                      <div class="icon-wrapper">
+                        <i class="bi bi-minecart-loaded"></i>
+                      </div>
+                    </div>
+                    <span >Load More</span>
+                  </button>
+               </a>
+        </div>
+    </div>
+</section>
+<!-- fixtures end -->
+
+<!-- Match officials start -->
+<section class="referees section-padding border-top border-2">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-xs-12">
+                    <h1 class="">MATCH OFFICIALS</h1>
+                    <div class="line"></div>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-md-3 gy-5 col-sm-12 col-xs-12">
+                <div class="ref-card">
+                    <div class="blob"></div>
+                      <span class="img">
+                        <img class="img-fluid" src="../images/fixture/ref1.jpg" alt="">
+                      </span>
+                      <h2>Referees</h2>
+                      <p>
+                       Match officials for week 25
+                      </p>
+                    </div>
+            </div>
+            <div class="col-md-3 col-sm-12  gy-5  col-xs-12">
+                <div class="ref-card">
+                    <div class="blob"></div>
+                      <span class="img">
+                        <img class="img-fluid" src="../images/fixture/ref2.jpg" alt="">
+                      </span>
+                      <h2>Referees</h2>
+                      <p>
+                       Match officials for week 25
+                      </p>
+                    </div>
+            </div>
+            <div class="col-md-3 col-sm-12 gy-5 col-xs-12">
+                <div class="ref-card">
+                    <div class="blob"></div>
+                      <span class="img">
+                        <img class="img-fluid" src="../images/fixture/ref3.jpg" alt="">
+                      </span>
+                      <h2>Referees</h2>
+                      <p>
+                       Match officials for week 25
+                      </p>
+                    </div>
+            </div>
+            <div class="col-md-3 col-sm-12  gy-5  col-xs-12">
+                <div class="ref-card">
+                    <div class="blob"></div>
+                      <span class="img">
+                        <img class="img-fluid" src="../images/fixture/ref4.jpg" alt="">
+                      </span>
+                      <h2>Referees</h2>
+                      <p>
+                       Match officials for week 25
+                      </p>
+                    </div>
+            </div>
+        </div> 
+    </div>
+</section>
+<!-- match officials end    -->
+
+
+<!-- footer start -->
+<footer class="bg-dark mt-4">
+    <div class="footer-top">
+       <div class="container">
+           <div class="row gy-2">
+               <div class="col-lg-3 col-sm-6">
+                <a class="navbar-brand text-white" href="index.html">SIUUU<span class="dot">.</span></a>
+                   <div class="line"></div>
+                   <p class="click">Bringing you the latest goals, news, and Siuuu-perstar moments</p>
+                   <div class="social-card">
+                    <span>Social</span>
+                    <a class="social-link" href="#">
+                        <i class='bi bi-facebook h3'></i>
+                    </a>
+                    <a class="social-link" href="#">
+                        <i class='bi bi-twitter h3'></i>
+                    </a>
+                    <a class="social-link" href="#">
+                        <i class='bi bi-instagram h3'></i>
+                    </a>
+                    <a class="social-link" href="#">
+                        <i class='bi bi-github h3'></i>
+                    </a>
+                  </div>
+               </div>
+               <div class="col-lg-3 col-sm-6">
+                   <h5 class="mb-0 text-white">Topics</h5>
+                   <div class="line"></div>
+                   <ul>
+                    <ul>
+                        <li><a href="news.html"  target="_blank">News</a></li>
+                        <li><a href="./leagues.html" target="_blank">Leagues</a></li>
+                        <li><a href="#">Fixtures</a></li>
+                        <li><a href="halloffame.html" target="_blank">Hall of Fame</a></li>
+                        <li><a href="highlights.html" target="_blank">Highlights</a></li>
+                    </ul>
+                </ul>
+               </div>
+               <div class="col-lg-3 col-sm-6">
+                <h5 class="mb-0 text-white">About SIUUU</h5>
+                <div class="line"></div>
+                <ul>
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="./signup.html">About us</a></li>
+                    <li><a href="./signup.html">Join us</a></li>
+                </ul>
+            </div>
+               <div class="col-lg-3 col-sm-6">
+                   <h5 class="mb-0 text-white">CONTACT</h5>
+                   <div class="line"></div>
+                   <ul>
+                       <li>Siu tower</li>
+                       <li>new york city</li>
+                       <li>+04454 448 89</li>
+                   </ul>
+               </div>
+           </div>
+       </div>
+     </div> 
+     <div class="footer-bottom">
+        <div class="container">
+            <div class="row justify-content-evenly align-items-center">
+                <div class="col-5">
+                    <p class="mb-0">&copy Copyright2023.All Rights Reserved</p>
+                </div>
+                <div class="col-5">
+                    <p class="mb-0">Designed by 
+                     <a href="#">SIUUU</a>
+                 </p>
+                </div>
+                <div class="col-2 text-end">
+                 <a href="#" class="arrow pb-2">
+                    <i class="bi bi-chevron-up h1 text-danger"></i>
+                 </a>
+              </div>
+            </div>
+        </div>
+      </div>
+</footer>
+<!-- footer end -->
+
+
+
+<!-- bootstrap link js -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+<!-- main js -->
+<script src="../js/general.js"></script>
+<script src="../js/fixture.js"></script>
+
+</body>
+</html>
