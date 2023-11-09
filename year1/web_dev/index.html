@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIUUU - Top Stories</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+  
+    <link href="images/home/1.png" rel="icon">
+
+
+    <!-- bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <!-- css links -->
+    <link rel="stylesheet" href="./css/general.css">
+    <link rel="stylesheet" href="./css/topstories.css">
+
+
+</head>
+<body>
+
+<!-- navbar -->
+<section class="sticky-top">
+<!-- TOP NAV -->
+<div class="top-nav" id="home">
+    <div class="container">
+     <div class="row justify-content-between">
+         <div class="col-5 text-start">
+       
+             <p> <i class="bi bi-envelope h5"></i> Siuu@example.com</p>
+             <p> <i class='bi bi-telephone h5'></i> (219) 555-0114</p>
+         </div>
+         <div class="col-5 text-end social-icons">
+             <a href="#"><i class='bi bi-facebook'></i></a>
+             <a href="#"><i class='bi bi-twitter'></i></a>
+             <a href="#"><i class='bi bi-instagram'></i></a>
+             <a href="#"><i class='bi bi-github'></i></a>
+         </div>
+         <div class="col-2 text-end">
+          <label class="switch">
+              <input type="checkbox">
+              <span onclick="myFunction()"  class="switchslider"></span>
+          </label>
+         </div>
+     </div>
+    </div>
+</div>
+<!-- BOTTOM NAV -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white ">
+<div class="container">
+   <a class="navbar-brand" href="index.html">SIUUU<span class="dot">.</span></a>
+   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+       aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon"></span>
+   </button>
+   <div class="collapse navbar-collapse" id="navbarNav">
+       <ul class="navbar-nav ms-auto">
+           <li class="nav-item">
+               <a class="nav-link active" href="#">Top Stories</a>
+           </li>
+           <li class="nav-item">
+               <a class="nav-link" href="./html/news.html" target="_blank">News</a>
+           </li>
+           <li class="nav-item">
+               <a class="nav-link" href="./html/leagues.html" target="_blank">Leagues</a>
+           </li>
+           <li class="nav-item">
+               <a class="nav-link" href="./html/fixture.html" target="_blank">Fixtures</a>
+           </li>
+           <li class="nav-item">
+               <a class="nav-link" href="./html/halloffame.html" target="_blank">Hall Of Fame</a>
+           </li>
+           <li class="nav-item">
+               <a class="nav-link" href="./html/highlights.html" target="_blank">Highlights</a>
+           </li>
+           
+       </ul>
+       <!-- <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-brand ms-lg-3">login</a> -->
+       <a class="ms-auto login-btn" href="./html/signup.html" target="_blank">
+        <button> LOGIN
+        </button>
+       </a>
+     
+       </div>
+</div>
+</nav>
+</section>
+<!-- navbar end -->
+
+<!-- main start -->
+<main class="container">
+    <section class="row">
+        <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12 order-md-3 order-sm-3 order-1">
+            <div class="row">
+                <div class="col-lg-5 col-md-6 col-sm-12 col-xs-12 order-md-1 order-sm-2 order-2 pr-md-4 min-content-height ">
+                    <div id="feature_stories_box">
+                        <div class="row">
+                            <div class="col-sm-12 mt-4">
+                                    <h4><i class="bi bi-layers-fill h3 text-danger"></i>FEATURED STORIES</h4>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12 mt-2 ">
+                                <img src="./images/home/allornothing.jpg"
+                                    alt="all or nothing aresnal poster" class="w-100">
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <div class="section-link">
+                                            <h6 onclick="loadContent(0);" class="click">Gunners gamble it all but come up empty-handed - Arsenal's all or nothing approach falls short in critical match.</h6>
+                                        </div>
+                                        <div class="section-little-description">
+                                          <small> <i class="bi bi-clock"></i> 10 mintues ago</small> 
+                                        </div>
+                                        <div class="border border-2"></div>
+                                   </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row ">
+                            <div class="col-sm-12 mt-2">
+                                <img src="./images/home/bestcomeback.jpg"
+                                    alt="barcelona players celebrating the win against psg" class="w-100">
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <div class="section-link">
+                                            <h6 onclick="loadContent(1);" class="click">Barcelona's Miracle at Camp Nou: A Historic Comeback for the Ages Against PSG.</h6>
+                                        </div>
+                                        <div class="section-little-description">
+                                          <small> <i class="bi bi-clock"></i> 10 mintues ago</small> 
+                                        </div>
+                                        <div class="border border-2"></div>
+                                   </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row ">
+                            <div class="col-sm-12 mt-2">
+                                <img src="./images/home/superleague.jpg"
+                                    alt="war for football poster" class="w-100">
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <div class="section-link">
+                                            <h6 onclick="loadContent(2);"class="click">Super League Uproar: The Birth of a New Football Era Sparks a War Between Clubs, Fans, and Officials.</h6>
+                                        </div>
+                                        <div class="section-little-description">
+                                          <small> <i class="bi bi-clock"></i> 10 mintues ago</small> 
+                                        </div>
+                                        <div class="border border-2"></div>
+                                   </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row ">
+                            <div class="col-sm-12 mt-2">
+                                <img src="./images/home/eth.jpg"
+                                    alt="man untied manager erik ten hag" class="w-100">
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <div class="section-link">
+                                            <h6 onclick="loadContent(3);" class="click">Ten Hag Takes the Reins: Can the New Man United Manager Lead the Red Devils Back to Glory?</h6>
+                                        </div>
+                                        <div class="section-little-description">
+                                          <small> <i class="bi bi-clock"></i> 10 mintues ago</small> 
+                                        </div>
+                                        <div class="border border-2"></div>
+                                   </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                 <div id="top_story"
+                    class="col-lg-7 col-md-6 col-sm-12 col-xs-12 order-md-2 order-sm-1 order-1 pl-md-0 mx-lg-0 mx-xl-0 min-content-height">
+                    <div class="row">
+                        <div class="col-12 order-md-1 order-sm-1 order-1">
+                            <div class="row mt-4 pt-3">
+                                <div class="container topstory-container">
+                                    <div class="row ">
+                                        <div class="col-sm-12">
+                                            <div class="top-story-link text-center p-5">
+                                                <h2 onclick="loadContent(4);" class="text-white click">Saka's impressive performances earn him recognition as a future star</h2>
+                                                <small> <i class="bi bi-clock text-dark h6"></i> 10 mintues ago</small> 
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 mt-2">
+                                        <img src="./images/home/saka.jpg"
+                                            alt="saka poster" class=" top-image">
+                                    </div>
+                                </div>
+                                 
+                            </div>
+                        </div>
+                        <div id="thebest-box" class="col-12 mt-4 order-md-2 order-sm-3 order-3 mt-5 pt-5">
+                            <div class="row">
+                                <div class="container">
+                                    <div class="col-12">
+                                        <h5 class="">THE BEST FIFA FOOTBALL AWARDS</h5> 
+                                    </div>
+                                    <div class="col-12 mt-4 pt-1 d-flex">
+                                        <div class="col-3">  <p class=""><img class="bestimg" src="./images/home/best striker.jpg" alt="lionel messi"></p></div>
+                                        <div class="col-9 px-5"><h5 onclick="loadContent(5);" class="click">The Best FIFA Men's Player</h5>
+                                            <p>Lionel Messi</p>
+                                        </div>
+                                    </div>
+                                    <div class="border border-2"></div>
+                                    <div class="col-12 mt-3 d-flex">
+                                        <div class="col-3">  <p class=""><img class="bestimg" src="./images/home/oleksy.jpg" alt="Marcin Oleksy"></p></div>
+                                        <div class="col-9 px-5"><h5 onclick="loadContent(6);" class="click">The Puskas Award</h5>
+                                            <p>Marcin Oleksy</p>
+                                        </div>
+                                    </div>
+                                    <div class="border border-2"></div>
+                                    <div class="col-12 mt-3 d-flex">
+                                        <div class="col-3">  <p class=""><img class="bestimg" src="./images/home/bestgk.jpg" alt="Emiliano Martínez"></p></div>
+                                        <div class="col-9 px-5"><h5 onclick="loadContent(7);" class="click">The Best FIFA Men's Goal Keeper</h5>
+                                            <p>Emiliano Martínez</p>
+                                        </div>
+                                    </div>
+                                    <div class="border border-2"></div>
+                                    <div class="col-12 mt-3 d-flex">
+                                        <div class="col-3">  <p class=""><img class="bestimg" src="./images/home/coach.jpg" alt="Lionel Scaloni"></p></div>
+                                        <div class="col-9 px-5"><h5 onclick="loadContent(8);" class="click">The Best FIFA Men's Coach</h5>
+                                            <p>Lionel Scaloni</p>
+                                        </div>
+                                    </div>
+                                    <div class="border border-2"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12 pl-lg-0 order-md-3 order-sm-3 order-2 min-content-height">
+            <aside id="matches_box">
+                <div class="row">
+                    <div class="col-sm-12 mt-4">                    
+                            <h5><i class="bi bi-hourglass-split h5 text-danger"></i>LOOKING AHEAD</h5>
+                    </div>
+                </div>
+                <div class="row matches">
+                <div class="col-sm-12 d-flex flex-row mt-2">
+                           <div class="col-4 p-1 text-end"> <b>MRS</b>  <img class="logo" src="./images/clubs/marseille-logo.png" alt="marseille logo"></div>
+                           <div class="col-4 p-1 text-center"><button>12:00</button></div> 
+                           <div class="col-4 p-1 text-start"><img class="logo" src="./images/clubs/psg logo.png" alt="psg logo"> <b>PSG</b></div>
+                </div>
+                    <!-- 2nd row -->
+                <div class="col-sm-12 d-flex flex-row">
+                    <div class="col-4 p-1 text-end"> <b>MUN</b>  <img class="logo" src="./images/clubs/manutd logo.png" alt="man utd logo"></div>
+                    <div class="col-4 p-1 text-center"><button>14:00</button></div> 
+                    <div class="col-4 p-1 text-start"><img class="logo" src="./images/clubs/mci.png" alt="man city logo"> <b>MCI</b></div>
+                </div>
+                <!-- 3rd row -->
+                <div class="col-sm-12 d-flex flex-row">
+                    <div class="col-4 p-1 text-end"> <b>LIV</b>  <img class="logo" src="./images/clubs/liverpol.png" alt="liverpool logo"></div>
+                    <div class="col-4 p-1 text-center"><button>14:00</button></div> 
+                    <div class="col-4 p-1 text-start"><img class="logo" src="./images/clubs/aresnal.png" alt="aresnal logo"> <b>ARS</b></div>
+                </div>
+                <!-- 4th row -->
+                <div class="col-sm-12 d-flex flex-row">
+                    <div class="col-4 p-1 text-end"> <b>ATM</b>  <img class="logo" src="./images/clubs/atm.png" alt="Atletico madrid logo"></div>
+                    <div class="col-4 p-1 text-center"><button>14:00</button></div> 
+                    <div class="col-4 p-1 text-start"><img class="logo" src="./images/clubs/fcb.png" alt="barcelona logo"> <b>FCB</b></div>
+                </div>
+            </aside>
+            <!-- manager box -->
+            <div id="The_manager_box">
+                <div class="row mt-3">
+                <div class="container">
+                        <div class="col-sm-12 mt-4">
+                        <h5>THE MANAGER OF THE MONTH</h5>
+                    </div>
+                </div>
+                <div class="row mx-1">
+                    <div class="col-xl-5 col-lg-5 col-md-2 col-sm-5 col-6 py-0 mt-2">
+                        <img src="./images/home/arteta.jpg"
+                            alt="mikel arteta" class="img-fluid">
+                        <span class="author pb-0">
+                                BY <b>Reuters</b>
+                            </span>
+                       </div>
+                    <div class="col-xl-7 col-lg-7 col-md-10 col-sm-7 col-6 pl-0 mt-2">
+                        <div class="d-flex flex-column">
+                                <p onclick="loadContent(9);" class="click">Arteta's tactical genius recognized with Manager of the Month award</p> 
+                                <small> <i class="bi bi-clock"></i> 10 mintues ago</small> 
+                        </div>
+                    </div>
+                    <div class="border border-2"></div>
+                </div>
+                
+                </div>
+                   
+            </div>
+            <div id="latest_news_box">
+                <div class="row">
+                    <div class="col-sm-12 mt-4">
+                        <a href="#" class="title-box">
+                            <h4><i class="bi bi-layers-half h5 text-danger"></i>LATEST NEWS</h4>
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-12 col-lg-7 col-md-10 col-sm-7 col-6 pl-0 mt-3">
+                        <div class="d-flex flex-column">
+                            <h6 onclick="loadContent(10);" class="click">Missing newcastle player found dead on earthquake.</h6>
+                            <small> <i class="bi bi-clock"></i> 10 mintues ago</small> 
+                        </div>
+                        <div class="border border-2"></div>
+                    </div>
+                </div>
+                <div class="row ">
+                    <div class="col-xl-12 col-lg-7 col-md-10 col-sm-7 col-6 pl-0 mt-3">
+                        <div class="d-flex flex-column">
+                            <h6 onclick="loadContent(11);" class="click">FIFA Unveils Official Poster for Women's World Cup 2023 in Australia and New Zealand</h6>
+                            <small> <i class="bi bi-clock"></i> 10 mintues ago</small> 
+                        </div>
+                        <div class="border border-2"></div>
+                    </div>
+                </div>
+                <div class="row ">
+                    <div class="col-xl-12 col-lg-7 col-md-10 col-sm-7 col-6 pl-0 mt-3">
+                        <div class="d-flex flex-column">
+                            <h6 onclick="loadContent(12);" class="click">Erik ten Hag: Manchester United boss says forward Wout Weghorst sometimes 'fails' but keeps going</h6>
+                            <small> <i class="bi bi-clock"></i> 10 mintues ago</small> 
+                        </div>
+                        <div class="border border-2"></div>
+                    </div>
+                </div>
+                <div class="row ">
+                    <div class="col-xl-12 col-lg-7 col-md-10 col-sm-7 col-6 pl-0 mt-3">
+                        <div class="d-flex flex-column">
+                            <h6  onclick="loadContent(13);"  class="click">Jurgen Klopp drops Liverpool transfer hint with new players vow as £60m deal confirmed</h6>
+                            <small> <i class="bi bi-clock"></i> 10 mintues ago</small> 
+                        </div>
+                        <div class="border border-2"></div>
+                    </div>
+                </div>
+                <div class="row ">
+                    <div class="col-xl-12 col-lg-7 col-md-10 col-sm-7 col-6 pl-0 mt-3">
+                        <div class="d-flex flex-column">
+                            <h6  onclick="loadContent(14);"  class="click">Mauricio Pochettino: Several Spurs players plead with former manager to return amid Antonio Conte doubts</h6>
+                            <small> <i class="bi bi-clock"></i> 10 mintues ago</small> 
+                        </div>
+                        <div class="border border-2"></div>
+                    </div>
+                </div>
+                <div class="row ">
+                    <div class="col-xl-12 col-lg-7 col-md-10 col-sm-7 col-6 pl-0 mt-3">
+                        <div class="d-flex flex-column">
+                            <h6  onclick="loadContent(15);"  class="click">How Arteta's tactics help Martinelli and Saka Shine.</h6>
+                            <small> <i class="bi bi-clock"></i> 10 mintues ago</small> 
+                        </div>
+                        <div class="border border-2"></div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+</main>
+<!-- main end -->
+
+<!-- footer start -->
+<footer class="bg-dark mt-4">
+    <div class="footer-top">
+       <div class="container">
+           <div class="row gy-5">
+               <div class="col-lg-3 col-sm-6">
+                <a class="navbar-brand text-white" href="index.html">SIUUU<span class="dot">.</span></a>
+                   <div class="line"></div>
+                   <p class="click">Bringing you the latest goals, news, and Siuuu-perstar moments</p>
+                   <div class="social-card">
+                    <span>Social</span>
+                    <a class="social-link" href="#">
+                        <i class='bi bi-facebook h3'></i>
+                    </a>
+                    <a class="social-link" href="#">
+                        <i class='bi bi-twitter h3'></i>
+                    </a>
+                    <a class="social-link" href="#">
+                        <i class='bi bi-instagram h3'></i>
+                    </a>
+                    <a class="social-link" href="#">
+                        <i class='bi bi-github h3'></i>
+                    </a>
+                  </div>
+               </div>
+               <div class="col-lg-3 col-sm-6">
+                   <h5 class="mb-0 text-white">Topics</h5>
+                   <div class="line"></div>
+                   <ul>
+                    <ul>
+                        <li><a href="html/news.html"  target="_blank">News</a></li>
+                        <li><a href="html/leagues.html" target="_blank">Leagues</a></li>
+                        <li><a href="html/fixture.html" target="_blank">Fixtures</a></li>
+                        <li><a href="html/halloffame.html" target="_blank">Hall of Fame</a></li>
+                        <li><a href="html/highlights.html" target="_blank">Highlights</a></li>
+                    </ul>
+                </ul>
+               </div>
+               <div class="col-lg-3 col-sm-6">
+                <h5 class="mb-0 text-white">About SIUUU</h5>
+                <div class="line"></div>
+                <ul>
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="./signup.html">About us</a></li>
+                    <li><a href="./signup.html">Join us</a></li>
+                </ul>
+            </div>
+               <div class="col-lg-3 col-sm-6">
+                   <h5 class="mb-0 text-white">CONTACT</h5>
+                   <div class="line"></div>
+                   <ul>
+                       <li>xyz</li>
+                       <li>new york city</li>
+                       <li>+04454 448 89</li>
+                   </ul>
+               </div>
+           </div>
+       </div>
+     </div> 
+     <div class="footer-bottom">
+        <div class="container">
+            <div class="row justify-content-evenly align-items-center">
+                <div class="col-5">
+                    <p class="mb-0">&copy Copyright2023.All Rights Reserved</p>
+                </div>
+                <div class="col-5">
+                    <p class="mb-0">Designed by 
+                     <a href="#">SIUUU</a>
+                 </p>
+                </div>
+                <div class="col-2 text-end">
+                 <a href="#" class="arrow pb-2">
+                    <i class="bi bi-chevron-up h1 text-danger"></i>
+                 </a>
+              </div>
+            </div>
+        </div>
+      </div>
+</footer>
+<!-- footer end -->
+
+<!-- popup window for article  -->
+<div id="full_view_div_container" class="container-fluid w-100">
+    <div class="col-12">
+        <button id="full_view_btn_close" class="btn btn-warning" onclick="closeContent();">
+            X
+        </button>
+        <div id="full_view_content">
+            
+        </div>
+    </div>
+</div>
+
+
+<!-- bootstrap link js -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+<!-- main js -->
+<script src="./js/general.js"></script>
+<script src="./js/main.js"></script>
+
+</body>
+</html>
